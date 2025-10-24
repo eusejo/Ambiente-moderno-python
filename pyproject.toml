@@ -24,12 +24,12 @@ version = "0.0.1"
 description = "project1"
 readme = "README.md"
 license = "MIT"
-authors = [{ name = "Seu nome", email = "seu@email.com" }]
+authors = [{ name = "eusejo" }]
 requires-python = ">=3.13"
 dependencies = ["python-dotenv>=1.1.0"]
 
 [project.urls]
-Homepage = "https://www.otaviomiranda.com.br/"
+Homepage = "https://github.com/eusejo"
 # Documentation = "https://example.org"
 # Repository = "https://github.com/me/spam.git"
 # Issues = "https://github.com/me/spam/issues"
@@ -43,7 +43,7 @@ dev = ["ruff", "pyright", "pytest", "pytest-xdist"]
 # O valor aponta para 'nome_do_pacote.nome_do_modulo:nome_da_funcao'.
 # Ex: 'my_package.main:run' -> src/my_package/main.py (e a função run lá dentro).
 # Lembre-se de sincronizar o nome do pacote com 'known-first-party' do Ruff.
-project1 = "my_package.my_module:run_from_script"
+project1 = ""
 
 # ============================
 # Lint e formatação (Ruff)
